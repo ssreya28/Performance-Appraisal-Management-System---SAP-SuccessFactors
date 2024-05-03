@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE obj-plan-template PUBLIC "-//SuccessFactors, Inc.//DTD Objective Template 4.0//EN" "objective-template_4_0.dtd">
+<obj-plan-template spellchk="true" new-obj-share-status-public="true" instructions-viewdefault="on"
+  alerts-viewdefault="on" cascade-parent-viewdefault="on" cascade-child-viewdefault="on"
+  pager-max-objs-per-page="10" pager-max-page-links="9" pager-max-children-per-parent="3"
+  display-alignment-format="goals" more-details-child-format="goal-plan" share-confirm="true"
+  unshare-confirm="true" allow-group-goal="false" goal-tree-link="true"
+  expand-collapse-categories="false" use-text-for-privacy="true" cws-people-role="true"
+  max-goals="4" min-goals="2" max-weight="100.0" min-weight="100.0" max-weight-per-obj="30.0"
+  min-weight-per-obj="5.0" overwrite-target-population="false" swap-goal-link="false"
+  learning-activity-deep-link="false" show-total-goalscore="false" show-goal-id="false">
+  <obj-plan-id>16</obj-plan-id>
+  <obj-plan-type>Business</obj-plan-type>
+  <obj-plan-name>2025 Extended Goal Plan</obj-plan-name>
+  <obj-plan-name lang="de_DE">Erweiterten Zielplan </obj-plan-name>
+  <obj-plan-name lang="es_ES">Planificación de objetivos extendida</obj-plan-name>
+  <obj-plan-name lang="fr_FR">Plan d'objectifs étendu</obj-plan-name>
+  <obj-plan-desc><![CDATA[Extended Goal Plan Template for Professional Edition]]></obj-plan-desc>
+  <obj-plan-lastmodified>2/28/24 8:33 AM</obj-plan-lastmodified>
+  <obj-plan-start>01/01/2015</obj-plan-start>
+  <obj-plan-due>12/31/2015</obj-plan-due>
+  <obj-plan-numbering>
+    <obj-plan-number-format><![CDATA[#.]]></obj-plan-number-format>
+    <obj-plan-number-format><![CDATA[#.]]></obj-plan-number-format>
+    <obj-plan-number-format><![CDATA[#.]]></obj-plan-number-format>
+  </obj-plan-numbering>
+  <switches>
+    <switch for="continuouspm-integration" value="off" />
+  </switches>
+  <add-wizard mode="smart goal">
+  </add-wizard>
+  <text-replacement for="Instructions">
+    <text><![CDATA[Use this worksheet to add or update your goals. To quickly add a new goal, click the "create a new goal button" or browse the Hierarchy section to find an existing goal to add to your plan.&nbsp; &nbsp;]]></text>
+    <text lang="de_DE"><![CDATA[ ]]></text>
+    <text lang="en_GB"><![CDATA[ ]]></text>
+    <text lang="en_US"><![CDATA[Use this worksheet to add or update your goals. To quickly add a new goal, click the "create a new goal button" or browse the Hierarchy section to find an existing goal to add to your plan.&nbsp; &nbsp; &nbsp;&nbsp;]]></text>
+    <text lang="es_ES"><![CDATA[CDATA[Use esta hoja de trabajo para añadir o actualizar objetivos. Para añadir un objetivo nuevo rápidamente, haga clic en el botón &quot;Crear un objetivo nuevo&quot;, o navegue en la sección de jerarquía para buscar un objetivo existente para añadir a su planificación.]]></text>
+    <text lang="fr_FR"><![CDATA[ ]]></text>
+  </text-replacement>
+  <obj-library name="SuccessFactors Library" id="600001">
+    <field-mapping src-library-field-id="Data1" dst-field-id="metric" />
+    <field-mapping src-library-field-id="Name" dst-field-id="name" />
+  </obj-library>
+  <category id="Financial">
+    <category-name>Financial Targets</category-name>
+    <category-name lang="de_DE">Finanzen</category-name>
+    <category-name lang="en_GB">Financial Targets</category-name>
+    <category-name lang="es_ES">Financiera</category-name>
+    <category-name lang="fr_FR">Finances</category-name>
+  </category>
+  <category id="Internal Business Processes">
+    <category-name>Internal Business Processes</category-name>
+    <category-name lang="de_DE">Interne Geschäftsprozesse</category-name>
+    <category-name lang="en_US">Internal Business Processes</category-name>
+    <category-name lang="es_ES">Procesos comerciales internos</category-name>
+    <category-name lang="fr_FR">Processus d'entreprise internes</category-name>
+  </category>
+  <category id="Learning and Growth">
+    <category-name>Learning and Growth</category-name>
+    <category-name lang="de_DE">Lernen und Wachstum</category-name>
+    <category-name lang="en_US">Learning and Growth</category-name>
+    <category-name lang="es_ES">Aprendizaje y crecimiento</category-name>
+    <category-name lang="fr_FR">Formation et croissance</category-name>
+  </category>
+  <category id="New Category">
+    <category-name>New Category</category-name>
+    <category-name lang="en_US">Custom</category-name>
+  </category>
+  <default-category id="Other">
+    <category-name>Other</category-name>
+    <category-name lang="de_DE">Weitere</category-name>
+    <category-name lang="en_US">Other</category-name>
+    <category-name lang="es_ES">Otra</category-name>
+    <category-name lang="fr_FR">Autre</category-name>
+  </default-category>
+  <field-definition id="name" type="textarea" required="true" detail="false" viewdefault="on"
+    showlabel="false" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down" maxlength="500">
+    <field-label>Goal Name*</field-label>
+    <field-label lang="de_DE">Zielbezeichnung*</field-label>
+    <field-label lang="en_GB">Goal Name*</field-label>
+    <field-label lang="en_US">Goal Name*</field-label>
+    <field-label lang="es_ES">Nombre del objetivo*</field-label>
+    <field-label lang="fr_FR">Nom de l'objectif*</field-label>
+    <field-description>Goal Name*</field-description>
+    <field-description lang="de_DE">Zielbezeichnung*</field-description>
+    <field-description lang="en_GB">Goal Name*</field-description>
+    <field-description lang="en_US">Goal Name*</field-description>
+    <field-description lang="es_ES">Nombre del objetivo*</field-description>
+    <field-description lang="fr_FR">Nom de l'objectif*</field-description>
+  </field-definition>
+  <field-definition id="metric" type="textarea" required="true" detail="false" viewdefault="on"
+    showlabel="false" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down" maxlength="1000">
+    <field-label>Metric</field-label>
+    <field-label lang="de_DE">Bewertungsmaßstab</field-label>
+    <field-label lang="en_GB">Metric</field-label>
+    <field-label lang="en_US">Metric</field-label>
+    <field-label lang="es_ES">Metric</field-label>
+    <field-label lang="fr_FR">Mesure</field-label>
+    <field-description>Metric</field-description>
+    <field-description lang="de_DE">Bewertungsmaßstab</field-description>
+    <field-description lang="en_GB">Metric</field-description>
+    <field-description lang="en_US">Metric</field-description>
+    <field-description lang="es_ES">Metric</field-description>
+    <field-description lang="fr_FR">Mesure</field-description>
+  </field-definition>
+  <field-definition id="weight" type="percent" required="true" detail="false" viewdefault="on"
+    showlabel="true" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down">
+    <field-label>Weight</field-label>
+    <field-label lang="de_DE">Bewertungsmaßstab</field-label>
+    <field-label lang="en_GB">Weight</field-label>
+    <field-label lang="en_US">Weight</field-label>
+    <field-label lang="es_ES">Ponderación</field-label>
+    <field-label lang="fr_FR">Mesure</field-label>
+    <field-description>Weight</field-description>
+    <field-description lang="de_DE">Bewertungsmaßstab</field-description>
+    <field-description lang="en_GB">Weight</field-description>
+    <field-description lang="en_US">Weight</field-description>
+    <field-description lang="es_ES">Ponderación</field-description>
+    <field-description lang="fr_FR">Mesure</field-description>
+    <default-value>0.0</default-value>
+  </field-definition>
+  <field-definition id="start" type="date" required="true" detail="true" viewdefault="on"
+    showlabel="true" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down">
+    <field-label>Start Date</field-label>
+    <field-label lang="de_DE">Anfangsdatum</field-label>
+    <field-label lang="en_GB">Start Date</field-label>
+    <field-label lang="en_US">Start Date</field-label>
+    <field-label lang="es_ES">Fecha de inicio</field-label>
+    <field-label lang="fr_FR">Date de début</field-label>
+    <field-description>Start Date</field-description>
+    <field-description lang="de_DE">Anfangsdatum</field-description>
+    <field-description lang="en_GB">Start Date</field-description>
+    <field-description lang="en_US">Start Date</field-description>
+    <field-description lang="es_ES">Fecha de inicio</field-description>
+    <field-description lang="fr_FR">Date de début</field-description>
+  </field-definition>
+  <field-definition id="due" type="date" required="true" detail="true" viewdefault="on"
+    showlabel="false" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down">
+    <field-label>Due Date</field-label>
+    <field-label lang="de_DE">Fälligkeitsdatum</field-label>
+    <field-label lang="en_GB">Due Date</field-label>
+    <field-label lang="en_US">Due Date</field-label>
+    <field-label lang="es_ES">Fecha límite</field-label>
+    <field-label lang="fr_FR">Date d’échéance</field-label>
+    <field-description>Due Date</field-description>
+    <field-description lang="de_DE">Fälligkeitsdatum</field-description>
+    <field-description lang="en_GB">Due Date</field-description>
+    <field-description lang="en_US">Due Date</field-description>
+    <field-description lang="es_ES">Fecha límite</field-description>
+    <field-description lang="fr_FR">Date d’échéance</field-description>
+  </field-definition>
+  <field-definition id="done" type="percent" required="false" detail="false" viewdefault="on"
+    showlabel="false" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down">
+    <field-label>% Complete</field-label>
+    <field-label lang="de_DE">% erreicht</field-label>
+    <field-label lang="en_GB">% Complete</field-label>
+    <field-label lang="en_US">% Complete</field-label>
+    <field-label lang="es_ES">% completo</field-label>
+    <field-label lang="fr_FR">% terminé</field-label>
+    <field-description>% Complete</field-description>
+    <field-description lang="de_DE">% erreicht</field-description>
+    <field-description lang="en_GB">% Complete</field-description>
+    <field-description lang="en_US">% Complete</field-description>
+    <field-description lang="es_ES">% completo</field-description>
+    <field-description lang="fr_FR">% terminé</field-description>
+    <default-value>0.0</default-value>
+  </field-definition>
+  <field-definition id="state" type="enum" required="true" detail="false" viewdefault="on"
+    showlabel="false" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down">
+    <field-label>Status</field-label>
+    <field-label lang="en_GB">Status</field-label>
+    <field-label lang="en_US">Status</field-label>
+    <field-label lang="es_ES">Estado</field-label>
+    <field-label lang="fr_FR">Statut</field-label>
+    <field-description>Status</field-description>
+    <field-description lang="en_GB">Status</field-description>
+    <field-description lang="en_US">Status</field-description>
+    <field-description lang="es_ES">Estado</field-description>
+    <field-description lang="fr_FR">Statut</field-description>
+    <enum-value value="Not Started" style="background:white;color:black;">
+      <enum-label>Not Started</enum-label>
+      <enum-label lang="de_DE">Nicht begonnen</enum-label>
+      <enum-label lang="en_GB">Not Started</enum-label>
+      <enum-label lang="en_US">Not Started</enum-label>
+      <enum-label lang="es_ES">No ha comenzado</enum-label>
+      <enum-label lang="fr_FR">Non démarré</enum-label>
+    </enum-value>
+    <enum-value value="On Track" style="background:green;color:white;">
+      <enum-label>On Track</enum-label>
+      <enum-label lang="de_DE">Im Zeitplan</enum-label>
+      <enum-label lang="en_GB">On Track</enum-label>
+      <enum-label lang="en_US">On Track</enum-label>
+      <enum-label lang="es_ES">En curso</enum-label>
+      <enum-label lang="fr_FR">En cours</enum-label>
+    </enum-value>
+    <enum-value value="Behind" style="background:red;color:white;">
+      <enum-label>Behind</enum-label>
+      <enum-label lang="de_DE">Im Rückstand</enum-label>
+      <enum-label lang="en_GB">Behind</enum-label>
+      <enum-label lang="en_US">Behind</enum-label>
+      <enum-label lang="es_ES">Retrasado</enum-label>
+      <enum-label lang="fr_FR">En retard</enum-label>
+    </enum-value>
+    <enum-value value="Completed" style="background:blue;color:white;">
+      <enum-label>Completed</enum-label>
+      <enum-label lang="de_DE">Fertig</enum-label>
+      <enum-label lang="en_GB">Completed</enum-label>
+      <enum-label lang="en_US">Completed</enum-label>
+      <enum-label lang="es_ES">Completado</enum-label>
+      <enum-label lang="fr_FR">Terminé</enum-label>
+    </enum-value>
+    <enum-value value="Postponed" style="background:yellow;color:black;">
+      <enum-label>Postponed</enum-label>
+      <enum-label lang="de_DE">Verschoben</enum-label>
+      <enum-label lang="en_GB">Postponed</enum-label>
+      <enum-label lang="en_US">Postponed</enum-label>
+      <enum-label lang="es_ES">Postpuesto</enum-label>
+      <enum-label lang="fr_FR">Retardé</enum-label>
+    </enum-value>
+    <enum-value value="Cancelled" style="background:gray;color:black;">
+      <enum-label>Cancelled</enum-label>
+      <enum-label lang="de_DE">Abgebrochen</enum-label>
+      <enum-label lang="en_GB">Cancelled</enum-label>
+      <enum-label lang="en_US">Cancelled</enum-label>
+      <enum-label lang="es_ES">Cancelada</enum-label>
+      <enum-label lang="fr_FR">Annulé</enum-label>
+    </enum-value>
+  </field-definition>
+  <field-definition id="milestones" type="table" required="false" detail="false" viewdefault="on"
+    showlabel="true" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down">
+    <field-label>Milestones</field-label>
+    <field-label lang="de_DE">Meilenstein</field-label>
+    <field-label lang="en_GB">Milestones</field-label>
+    <field-label lang="en_US">Milestones</field-label>
+    <field-label lang="es_ES">Hitos</field-label>
+    <field-label lang="fr_FR">Jalons</field-label>
+    <field-description>Milestones</field-description>
+    <field-description lang="de_DE">Meilenstein</field-description>
+    <field-description lang="en_GB">Milestones</field-description>
+    <field-description lang="en_US">Milestones</field-description>
+    <field-description lang="es_ES">Hitos</field-description>
+    <field-description lang="fr_FR">Jalons</field-description>
+    <table-row-label>Milestones</table-row-label>
+    <table-row-label lang="de_DE">Meilenstein</table-row-label>
+    <table-row-label lang="en_GB">Milestones</table-row-label>
+    <table-row-label lang="en_US">Milestones</table-row-label>
+    <table-row-label lang="es_ES">Hitos</table-row-label>
+    <table-row-label lang="fr_FR">Jalons</table-row-label>
+    <table-column id="start" type="date" required="true" validate-start-before-due="false"
+      cascade-update="push-down">
+      <column-label lang="de_DE">Vorgabedatum</column-label>
+      <column-label lang="en_GB">Target Date</column-label>
+      <column-label lang="es_ES">Fecha de inicio</column-label>
+      <column-label lang="fr_FR">Date cible</column-label>
+      <column-label lang="us_US">Target Date</column-label>
+      <column-description>Target Date</column-description>
+      <column-description lang="de_DE">Vorgabedatum</column-description>
+      <column-description lang="en_GB">Target Date</column-description>
+      <column-description lang="en_US">Target Date</column-description>
+      <column-description lang="es_ES">Fecha de inicio</column-description>
+      <column-description lang="fr_FR">Date cible</column-description>
+    </table-column>
+    <table-column id="desc" type="textarea" required="true" cascade-update="push-down">
+      <column-label lang="de_DE">Meilenstein </column-label>
+      <column-label lang="en_GB">Milestone</column-label>
+      <column-label lang="es_ES">Hito</column-label>
+      <column-label lang="fr_FR">Jalon</column-label>
+      <column-label lang="us_US">Milestone</column-label>
+      <column-description>Milestone</column-description>
+      <column-description lang="de_DE">Meilenstein </column-description>
+      <column-description lang="en_GB">Milestone</column-description>
+      <column-description lang="en_US">Milestone</column-description>
+      <column-description lang="es_ES">Hito</column-description>
+      <column-description lang="fr_FR">Jalon</column-description>
+    </table-column>
+    <table-column id="due" type="date" required="false" cascade-update="push-down">
+      <column-label lang="de_DE">Aktuelles Datum</column-label>
+      <column-label lang="en_GB">Actual Date</column-label>
+      <column-label lang="es_ES">Fecha real</column-label>
+      <column-label lang="fr_FR">Date réelle</column-label>
+      <column-label lang="us_US">Actual Date</column-label>
+      <column-description>Actual Date</column-description>
+      <column-description lang="de_DE">Aktuelles Datum</column-description>
+      <column-description lang="en_GB">Actual Date</column-description>
+      <column-description lang="en_US">Actual Date</column-description>
+      <column-description lang="es_ES">Fecha real</column-description>
+      <column-description lang="fr_FR">Date réelle</column-description>
+    </table-column>
+  </field-definition>
+  <field-definition id="tasks" type="table" required="false" detail="false" viewdefault="on"
+    showlabel="true" default-calc-type="step" field-show-coaching-advisor="false"
+    cascade-update="push-down">
+    <field-label>Sub-Goals</field-label>
+    <field-label lang="de_DE">Unterziele</field-label>
+    <field-label lang="en_GB">Sub-Goals</field-label>
+    <field-label lang="en_US">Sub-Goals</field-label>
+    <field-label lang="es_ES">Subobjetivo</field-label>
+    <field-label lang="fr_FR">Sous-objectifs</field-label>
+    <field-description>Sub-Goals</field-description>
+    <field-description lang="de_DE">Unterziele</field-description>
+    <field-description lang="en_GB">Sub-Goals</field-description>
+    <field-description lang="en_US">Sub-Goals</field-description>
+    <field-description lang="es_ES">Subobjetivo</field-description>
+    <field-description lang="fr_FR">Sous-objectifs</field-description>
+    <table-row-label>Sub-Goals</table-row-label>
+    <table-row-label lang="de_DE">Unterziele</table-row-label>
+    <table-row-label lang="en_GB">Sub-Goals</table-row-label>
+    <table-row-label lang="en_US">Sub-Goals</table-row-label>
+    <table-row-label lang="es_ES">Subobjetivo</table-row-label>
+    <table-row-label lang="fr_FR">Sous-objectifs</table-row-label>
+    <table-column id="desc" type="textarea" required="true" cascade-update="push-down">
+      <column-label lang="de_DE">Beschreibung des Teilziels</column-label>
+      <column-label lang="en_GB">Sub-Goal Description</column-label>
+      <column-label lang="es_ES">Subobjetivos</column-label>
+      <column-label lang="fr_FR">Description de sous-objectif</column-label>
+      <column-label lang="us_US">Sub-Goal Description</column-label>
+      <column-description>Sub-Goal Description</column-description>
+      <column-description lang="de_DE">Beschreibung des Teilziels</column-description>
+      <column-description lang="en_GB">Sub-Goal Description</column-description>
+      <column-description lang="en_US">Sub-Goal Description</column-description>
+      <column-description lang="es_ES">Porcentaje completo</column-description>
+      <column-description lang="fr_FR">Description de sous-objectif</column-description>
+    </table-column>
+    <table-column id="done" type="percent" required="false" cascade-update="push-down">
+      <column-label lang="de_DE">Prozent fertig</column-label>
+      <column-label lang="en_GB">Percent Complete</column-label>
+      <column-label lang="es_ES">Porcentaje completo</column-label>
+      <column-label lang="fr_FR">Pourcentage terminé</column-label>
+      <column-label lang="us_US">Percent Complete</column-label>
+      <column-description>Percent Complete</column-description>
+      <column-description lang="de_DE">Prozent fertig</column-description>
+      <column-description lang="en_GB">Percent Complete</column-description>
+      <column-description lang="en_US">Percent Complete</column-description>
+      <column-description lang="es_ES">Porcentaje completo</column-description>
+      <column-description lang="fr_FR">Pourcentage terminé</column-description>
+    </table-column>
+  </field-definition>
+  <field-definition id="targets" type="table" required="false" detail="false" viewdefault="off"
+    showlabel="true" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label>Tasks</field-label>
+    <field-description>Tasks</field-description>
+    <table-row-label lang="en_US">Tasks</table-row-label>
+    <table-column id="date" type="date" required="false" cascade-update="push-down">
+      <column-label>Target Date</column-label>
+    </table-column>
+    <table-column id="target" type="textarea" required="false" cascade-update="push-down">
+      <column-label>Task</column-label>
+    </table-column>
+  </field-definition>
+  <field-definition id="Custom01" type="number" required="false" detail="false" viewdefault="off"
+    showlabel="true" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label>Target</field-label>
+    <field-description>Target</field-description>
+  </field-definition>
+  <field-definition id="Custome02" type="number" required="false" detail="false" viewdefault="off"
+    showlabel="true" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label>Actual</field-label>
+    <field-description>Actual</field-description>
+  </field-definition>
+
+  <obj-plan-states>
+    <obj-plan-state id="unlocked" default="true">
+      <state-label lang="en_GB">Unlocked</state-label>
+      <state-label lang="en_US">Unlocked</state-label>
+      <action-label>change1</action-label>
+      <permission for="change-state">
+        <description><![CDATA[Manger may change the goal plan state to C.]]></description>
+        <target-state><![CDATA[locked]]></target-state>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[E]]></role-name>
+      </permission>
+
+
+      <permission for="cascade-pull">
+        <description><![CDATA[Anyone may cascade a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[*]]></role-name>
+      </permission>
+      <permission for="cascade-push">
+        <description><![CDATA[Anyone may cascade a goal to anyone.]]></description>
+        <role-name><![CDATA[*]]></role-name>
+      </permission>
+      <permission for="cascade-align">
+        <description><![CDATA[Anyone may cascade a goal to anyone.]]></description>
+        <role-name><![CDATA[*]]></role-name>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Only the employee, manager and form reviewer may create goals in a user's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Only the employee and manager may delete goals in his/her own plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+      </permission>
+      <permission for="unalign-parent">
+        <description><![CDATA[Only the employee may unalign a parent goal from his/her own plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+      </permission>
+      <permission for="unalign-child">
+        <description><![CDATA[Only the employee may unalign a child goal from his/her own plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee and manager may move and indent goals in a user's plan.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[Employees and their managers up the hierarchy may view unshared/private goals.Parents of cascaded private goals can see the children.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[EM+]]></role-name>
+        <role-name><![CDATA[EH]]></role-name>
+        <role-name><![CDATA[OP]]></role-name>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Everyone may read all fields for everyone.]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="name" />
+        <field refid="metric" />
+        <field refid="weight" />
+        <field refid="start" />
+        <field refid="due" />
+        <field refid="done" />
+        <field refid="state" />
+        <field refid="tasks" />
+        <field refid="milestones" />
+        <field refid="targets" />
+        <field refid="Custom01" />
+        <field refid="Custome02" />
+      </field-permission>
+      <field-permission type="write">
+        <description><![CDATA[Theowner and manager may write to all fields for the employee's goals]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <field refid="name" />
+        <field refid="metric" />
+        <field refid="weight" />
+        <field refid="start" />
+        <field refid="due" />
+        <field refid="done" />
+        <field refid="state" />
+        <field refid="tasks" />
+        <field refid="milestones" />
+        <field refid="targets" />
+      </field-permission>
+      <field-permission type="none">
+        <description><![CDATA[Theowner and manager may write to all fields for the employee's goals]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <field refid="milestones" />
+        <field refid="targets" />
+      </field-permission>
+    </obj-plan-state>
+
+    <obj-plan-state id="locked">
+      <state-label lang="en_GB">Locked</state-label>
+      <state-label lang="en_US">Locked</state-label>
+      <action-label>change2</action-label>
+      <permission for="change-state">
+        <description><![CDATA[Manger may change the goal plan state to C.]]></description>
+        <target-state><![CDATA[unlocked]]></target-state>
+        <target-state><![CDATA[partial]]></target-state>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[E]]></role-name>
+      </permission>
+
+      <permission for="cascade-pull">
+        <description><![CDATA[Anyone may cascade a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="cascade-push">
+        <description><![CDATA[Anyone may cascade a goal to anyone.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="cascade-align">
+        <description><![CDATA[Anyone may cascade a goal to anyone.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Only the employee, manager and form reviewer may create goals in a user's plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Only the employee and manager may delete goals in his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="unalign-parent">
+        <description><![CDATA[Only the employee may unalign a parent goal from his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="unalign-child">
+        <description><![CDATA[Only the employee may unalign a child goal from his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee and manager may move and indent goals in a user's plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[Employees and their managers up the hierarchy may view unshared/private goals.Parents of cascaded private goals can see the children.]]></description>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Everyone may read all fields for everyone.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <field refid="name" />
+        <field refid="metric" />
+        <field refid="weight" />
+        <field refid="start" />
+        <field refid="due" />
+        <field refid="done" />
+        <field refid="state" />
+        <field refid="tasks" />
+        <field refid="milestones" />
+        <field refid="targets" />
+        <field refid="Custom01" />
+        <field refid="Custome02" />
+      </field-permission>
+      <field-permission type="write">
+        <description><![CDATA[Theowner and manager may write to all fields for the employee's goals]]></description>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <field refid="name" />
+        <field refid="metric" />
+        <field refid="weight" />
+        <field refid="start" />
+        <field refid="due" />
+        <field refid="done" />
+        <field refid="state" />
+        <field refid="tasks" />
+        <field refid="milestones" />
+        <field refid="targets" />
+      </field-permission>
+      <field-permission type="none">
+        <description><![CDATA[Theowner and manager may write to all fields for the employee's goals]]></description>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <field refid="milestones" />
+        <field refid="targets" />
+      </field-permission>
+    </obj-plan-state>
+
+    <obj-plan-state id="partial">
+      <state-label lang="en_GB">Partial</state-label>
+      <state-label lang="en_US">Partial</state-label>
+      <action-label>change3</action-label>
+      <permission for="change-state">
+        <description><![CDATA[Manger may change the goal plan state to C.]]></description>
+        <target-state><![CDATA[locked]]></target-state>
+        <target-state><![CDATA[unlocked]]></target-state>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[E]]></role-name>
+      </permission>
+
+
+      <permission for="cascade-pull">
+        <description><![CDATA[Anyone may cascade a goal from anyone else's plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="cascade-push">
+        <description><![CDATA[Anyone may cascade a goal to anyone.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="cascade-align">
+        <description><![CDATA[Anyone may cascade a goal to anyone.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Only the employee, manager and form reviewer may create goals in a user's plan.]]></description>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Only the employee and manager may delete goals in his/her own plan.]]></description>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="unalign-parent">
+        <description><![CDATA[Only the employee may unalign a parent goal from his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="unalign-child">
+        <description><![CDATA[Only the employee may unalign a child goal from his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee and manager may move and indent goals in a user's plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[Employees and their managers up the hierarchy may view unshared/private goals.Parents of cascaded private goals can see the children.]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Everyone may read all fields for everyone.]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="name" />
+        <field refid="metric" />
+        <field refid="weight" />
+        <field refid="start" />
+        <field refid="due" />
+        <field refid="done" />
+        <field refid="state" />
+        <field refid="tasks" />
+        <field refid="milestones" />
+        <field refid="targets" />
+        <field refid="Custom01" />
+        <field refid="Custome02" />
+      </field-permission>
+      <field-permission type="write">
+        <description><![CDATA[Theowner and manager may write to all fields for the employee's goals]]></description>
+        <role-name><![CDATA[]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <field refid="name" />
+        <field refid="metric" />
+        <field refid="weight" />
+        <field refid="start" />
+        <field refid="due" />
+        <field refid="done" />
+        <field refid="state" />
+        <field refid="tasks" />
+        <field refid="milestones" />
+        <field refid="targets" />
+      </field-permission>
+      <field-permission type="none">
+        <description><![CDATA[Theowner and manager may write to all fields for the employee's goals]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <field refid="milestones" />
+        <field refid="targets" />
+      </field-permission>
+    </obj-plan-state>
+
+  </obj-plan-states>
+
+  <plan-layout>
+    <column weight="2.0">
+      <field refid="name" />
+      <field refid="tasks" />
+      <field refid="milestones" />
+      <field refid="targets" />
+    </column>
+    <column weight="4.0">
+      <field refid="metric" />
+    </column>
+    <column weight="1.0">
+      <field refid="weight" />
+    </column>
+    <column weight="1.0">
+      <field refid="start" />
+    </column>
+    <column weight="1.0">
+      <field refid="due" />
+    </column>
+    <column weight="1.0">
+      <field refid="done" />
+    </column>
+    <column weight="1.0">
+      <field refid="state" />
+    </column>
+    <column weight="0.0">
+      <field refid="Custom01" />
+    </column>
+    <column weight="0.0">
+      <field refid="Custome02" />
+    </column>
+  </plan-layout>
+  <form-layout><![CDATA[## Consider displaying goal category (if applicable) if mapping goals across all categories in one objective section 
+
+<div align="left">
+  <b>Category: ${field.category}</b>
+</div>#set ($group = "name-state") 
+
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="20%">#if ($display.name) <b>${label.name}:</b><br>
+     ${field.name} #end</td>
+
+    <td>&nbsp;</td>
+
+    <td valign="top" width="30%">#if ($display.metric) <b>${label.metric}:</b><br>
+     ${field.metric} #end</td>
+
+    <td>&nbsp;</td>
+
+    <td valign="top" width="10%">#if ($display.weight) <b>${label.weight}:</b><br>
+     ${field.weight} #end</td>
+
+    <td>&nbsp;</td>
+
+    <td valign="top" width="10%">#if ($display.start) <b>${label.start}:</b><br>
+     ${field.start} #end</td>
+
+    <td>&nbsp;</td>
+
+    <td valign="top" width="10%">#if ($display.due) <b>${label.due}:</b><br>
+     ${field.due} #end</td>
+
+    <td>&nbsp;</td>
+
+    <td valign="top" width="10%">#if ($display.done) <b>${label.done}:</b><br>
+     ${field.done} #end</td>
+
+    <td>&nbsp;</td>
+
+    <td valign="top" width="10%">#if ($display.state) <b>${label.state}:</b><br>
+     ${field.state} #end</td>
+  </tr>
+</table>## turn off grouping for subsequent fields #set ($group = "") 
+
+<div style="margin:0.5em 0">
+  #if ($display.tasks) 
+
+  <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+    <b>${label.tasks}:</b>${field.tasks}
+  </div>#end
+</div>
+
+<div style="margin:0.5em 0">
+  #if ($display.milestones) 
+
+  <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+    <b>${label.milestones}:</b>${field.milestones}
+  </div>#end
+</div>]]></form-layout>
+  <pdf-layout><![CDATA[${row.start} ${field.category} ${row.end} ${row.start} #if ($display.name) ${label.name}${field.name} #end #if ($display.metric) ${label.metric}${field.metric} #end #if ($display.weight) ${label.weight}${field.weight} #end #if ($display.start) ${label.start}${field.start} #end #if ($display.due) ${label.due}${field.due} #end #if ($display.done) ${label.done}${field.done} #end #if ($display.state) ${label.state}${field.state} #end ${row.end} ${row.start} #if ($display.tasks) ${label.tasks}${field.tasks} #end ${row.end} ${row.start} #if ($display.milestones) ${label.milestones}${field.milestones} #end ${row.end}]]></pdf-layout>
+  <details-layout><![CDATA[#if ($display.assignee) #end #if ($display.name) #end #if ($display.metric) #end #if ($display.weight) #end #if ($display.start) #end #if ($display.due) #end #if ($display.done) #end #if ($display.state) #end #if ($display.tasks) #end #if ($display.milestones) #end #if ($display.public) #end 
+
+<table width="100%" cellpadding="3" cellspacing="3">
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.assignee}:</b></td>
+
+    <td valign="top">${field.assignee}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.name}:</b></td>
+
+    <td valign="top">${field.name}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.metric}:</b></td>
+
+    <td valign="top">${field.metric}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.weight}:</b></td>
+
+    <td valign="top">${field.weight}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.start}:</b></td>
+
+    <td valign="top">${field.start}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.due}:</b></td>
+
+    <td valign="top">${field.due}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.done}:</b></td>
+
+    <td valign="top">${field.done}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.state}:</b></td>
+
+    <td valign="top">${field.state}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.tasks}:</b></td>
+
+    <td valign="top">${field.tasks}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.milestones}:</b></td>
+
+    <td valign="top">${field.milestones}</td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="1" nowrap><b>${label.public}:</b></td>
+
+    <td valign="top">${field.public}</td>
+  </tr>
+</table>]]></details-layout>
+</obj-plan-template>
+
+
+
+
+
